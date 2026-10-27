@@ -10,9 +10,12 @@ add_compile_options(-Wall -Wextra)
 add_executable(dumper src/dumper/main.cpp)
 
 add_library(dumper_dylib SHARED
-  src/dumper/util.cpp
+  src/dumper/memory.cpp
+  src/dumper/instance.cpp
+  src/dumper/engine.cpp
   src/dumper/segments.cpp
   src/dumper/scheduler.cpp
+  src/dumper/heartbeat.cpp
   src/dumper/dumper.cpp
 )
 

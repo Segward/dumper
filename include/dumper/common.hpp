@@ -9,6 +9,7 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
+#include <functional>
 #include <thread>
 #include <filesystem>
 #include <unistd.h>
