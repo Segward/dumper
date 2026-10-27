@@ -1,11 +1,13 @@
 #ifndef COMMON_HPP
 #define COMMON_HPP
 
+#include <cmath>
 #include <cstdint>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
 #include <string>
+#include <unordered_map>
 #include <vector>
 #include <thread>
 #include <filesystem>
